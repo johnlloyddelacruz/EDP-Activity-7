@@ -33,8 +33,10 @@ namespace Foodeez_Resto
 
         }
 
+        
         private void button1_Click(object sender, EventArgs e)
         {
+            //this is for Add Customer button
             Form6 form6 = new Form6();
             this.Hide();
             form6.Show();

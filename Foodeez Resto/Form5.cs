@@ -58,6 +58,7 @@ namespace Foodeez_Resto
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //this is for Update button
             Form7 form7 = new Form7(userID);
             this.Hide();
             form7.Show();
